@@ -1,0 +1,87 @@
+{
+  "asOf": "2026-10-19",
+  "workbooks": 12,
+  "worksheets": 95,
+  "projects": 13,
+  "activities": 150,
+  "sites": 536,
+  "mappedSites": 416,
+  "unmappedSites": 120,
+  "waterRegister": {
+    "file": "Evidence-Based Planning and implementation Maps - Tracker(Tracker).csv",
+    "rows": 252,
+    "mapped": 231,
+    "unmapped": 21,
+    "mapProvided": 220,
+    "coordinatesReported": 220,
+    "boqReceived": 196,
+    "sourceStatuses": [
+      {
+        "status": "Delivered",
+        "count": 86
+      },
+      {
+        "status": "Revisions Needed",
+        "count": 7
+      },
+      {
+        "status": "Draft Map Shared",
+        "count": 10
+      },
+      {
+        "status": "In Progress",
+        "count": 1
+      },
+      {
+        "status": "Map Preparation Not Started",
+        "count": 60
+      },
+      {
+        "status": "SOW Received – Incomplete",
+        "count": 88
+      }
+    ]
+  },
+  "issues": 27,
+  "externalLayers": [
+    {
+      "file": "Geo Assets/External/hotosm-education-gezira.geojson",
+      "featureCount": 1136,
+      "type": "FeatureCollection",
+      "role": "Reference only; not implementation evidence"
+    },
+    {
+      "file": "Geo Assets/External/hotosm-water-reference-gezira.geojson",
+      "featureCount": 38,
+      "type": "FeatureCollection",
+      "role": "Reference only; not implementation evidence"
+    },
+    {
+      "file": "Geo Assets/External/education/education_facilities.geojson",
+      "featureCount": 6437,
+      "type": "FeatureCollection",
+      "role": "Reference only; not implementation evidence"
+    },
+    {
+      "file": "Geo Assets/External/poi/points_of_interest.geojson",
+      "featureCount": 24808,
+      "type": "FeatureCollection",
+      "role": "Reference only; not implementation evidence"
+    }
+  ],
+  "notes": [
+    "Award budgets remain in source currencies. Numeric factsheet budgets without explicit currency are Unspecified; no foreign-exchange conversion is applied.",
+    "Currency formatting is retained as source evidence: euro-formatted awards are EUR, CHF text is CHF, and dollar-formatted awards are grouped as USD by convention; confirm dollar denomination with finance.",
+    "Financial actuals in the Kuwait tracker are retained as reported actuals, not verified expenditure. No pillar utilization rate is asserted.",
+    "Progress is an unweighted mean of capped numeric activity actual/target ratios, not an official project completion percentage. Different indicator units are not summed.",
+    "Geography filters select associated awards. Award budgets and activity indices remain award-wide, not apportioned to the selected locality. Period filters select award-date overlap, not historical performance snapshots.",
+    "Statuses and RAG are derived screening indicators. Red means end date passed without complete extracted activity evidence; Amber means missing/stale reporting or unknown status. No project closure is certified.",
+    "Site beneficiary estimates are non-deduplicated service reach, not unique people reached. Households are kept separate. Overlap between interventions and awards is possible.",
+    "The new evidence-based water register links donors to existing awards where unambiguous; the KS Relief award is separate and has no source budget. Its coordinate rows remain distinct, including repeated coordinate pairs. The earlier all-water CSV may merge same-award records within about 64 metres as potential duplicates.",
+    "Missing coordinates are not replaced by locality centroids. Geographic coverage uses mapped observations, not inferred operational coverage.",
+    "Reference polygons are displayed as D3 centroids after winding normalization; these are contextual feature centres, not project locations. The education-authority register has locality codes but no point coordinates.",
+    "Humanitarian indicators are contextual source snapshots, not current verified needs or project performance measures. Source dates remain visible.",
+    "National school workbook, lookup lists, procurement, HR, communications, results frameworks and workplan sheets remain available through the source audit; lookup values are not counted as projects.",
+    "No reliable activity-level deadline register, verified spend ledger, or structured risk rating is uniformly available. These gaps are explicitly reported."
+  ]
+}

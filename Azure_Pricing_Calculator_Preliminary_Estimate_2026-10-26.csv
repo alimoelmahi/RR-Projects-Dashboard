@@ -1,0 +1,11 @@
+Estimate type,Preliminary Azure Pricing Calculator configuration summary; not an official saved/exported calculator estimate
+Estimate date,2026-10-26
+Pricing region,South Africa North
+Currency,USD
+Service,Configuration,Monthly USD,Annual USD,Assumptions and exclusions
+Azure App Service,Basic Linux B1 / 1 instance / 730 hours,17.74,212.87,Single low-traffic pilot app; custom domain and SSL certificate charges set to zero in calculator
+Azure Database for PostgreSQL Flexible Server,Burstable B1MS / 1 vCore / 730 hours / Premium SSD / 32 GiB / LRS backup / no high availability,20.53,246.32,5 GiB is included in the calculator server configuration; additional storage set to 32 GiB; no additional backup storage
+Azure Cache for Redis,Basic C0 / 250 MB / 1 instance / 730 hours,23.43,281.20,Small session/cache tier
+Storage Accounts,Block Blob / General Purpose v2 / Flat namespace / Hot / LRS / 50 GB / 50 GB retrieval,1.80,21.59,Calculator transaction assumptions: 10 x 10000 writes; 1 x 10000 container operations; 10 x 10000 reads; 1 x 10000 other operations; 1000 GB data written
+Key Vault,Standard / 10000 operations / no HSM or protected keys,0.03,0.36,One standard 10000-operation unit
+TOTAL,,63.53,762.34,Planning estimate only; actual UNDP subscription rates, negotiated discounts, traffic, backups, logging, networking, taxes, and regional availability may change costs

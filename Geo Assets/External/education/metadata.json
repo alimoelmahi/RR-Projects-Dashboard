@@ -1,0 +1,447 @@
+{
+  "feature_count": 6437,
+  "geometry_types": {
+    "POLYGON": 5944,
+    "POINT": 493
+  },
+  "bbox": [
+    21.8874997,
+    9.4048765,
+    38.3640458,
+    21.7755432
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 6437,
+      "top_values": []
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR",
+      "null_count": 5589,
+      "null_percent": 86.83,
+      "distinct_count": 813,
+      "top_values": [
+        {
+          "value": "Students Class",
+          "count": 3
+        },
+        {
+          "value": "\u0645\u062f\u0631\u0633\u0629 \u0639\u0645\u0631 \u0628\u0646 \u0627\u0644\u062e\u0637\u0627\u0628",
+          "count": 3
+        },
+        {
+          "value": "\u0645\u062f\u0631\u0633\u0629",
+          "count": 3
+        },
+        {
+          "value": "Students' class",
+          "count": 3
+        },
+        {
+          "value": "\u0627\u0644\u0634\u0631\u0642\u064a\u0629 \u0627\u0644\u062b\u0627\u0646\u0648\u064a\u0629 \u0628\u0646\u0627\u062a",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "name_en",
+      "type": "VARCHAR",
+      "null_count": 6318,
+      "null_percent": 98.15,
+      "distinct_count": 113,
+      "top_values": [
+        {
+          "value": "University of Khartoum",
+          "count": 3
+        },
+        {
+          "value": "Sudan International University",
+          "count": 2
+        },
+        {
+          "value": "Faculty of Arts",
+          "count": 2
+        },
+        {
+          "value": "Al Eizbah Elementary School for Boys",
+          "count": 2
+        },
+        {
+          "value": "University of Khartoum Administration",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "name_ar",
+      "type": "VARCHAR",
+      "null_count": 6260,
+      "null_percent": 97.25,
+      "distinct_count": 172,
+      "top_values": [
+        {
+          "value": "\u0645\u062f\u0631\u0633\u0629 \u0627\u0644\u0639\u0632\u0628\u0629 \u0627\u0644\u0627\u0628\u062a\u062f\u0627\u0626\u064a\u0629 \u0644\u0644\u0628\u0646\u064a\u0646",
+          "count": 2
+        },
+        {
+          "value": "\u0627\u062f\u0627\u0631\u0629 \u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062e\u0631\u0637\u0648\u0645",
+          "count": 2
+        },
+        {
+          "value": "\u0627\u0644\u0634\u0631\u0642\u064a\u0629 \u0627\u0644\u062b\u0627\u0646\u0648\u064a\u0629 \u0628\u0646\u0627\u062a",
+          "count": 2
+        },
+        {
+          "value": "\u0643\u0644\u064a\u0629 \u0627\u0644\u0627\u062f\u0627\u0628",
+          "count": 2
+        },
+        {
+          "value": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062e\u0631\u0637\u0648\u0645",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "amenity",
+      "type": "VARCHAR",
+      "null_count": 2274,
+      "null_percent": 35.33,
+      "distinct_count": 5,
+      "top_values": [
+        {
+          "value": "school",
+          "count": 3847
+        },
+        {
+          "value": "college",
+          "count": 179
+        },
+        {
+          "value": "university",
+          "count": 115
+        },
+        {
+          "value": "kindergarten",
+          "count": 20
+        },
+        {
+          "value": "area",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "building",
+      "type": "VARCHAR",
+      "null_count": 4112,
+      "null_percent": 63.88,
+      "distinct_count": 5,
+      "top_values": [
+        {
+          "value": "school",
+          "count": 2273
+        },
+        {
+          "value": "university",
+          "count": 26
+        },
+        {
+          "value": "yes",
+          "count": 19
+        },
+        {
+          "value": "college",
+          "count": 4
+        },
+        {
+          "value": "kindergarten",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "operator_type",
+      "type": "VARCHAR",
+      "null_count": 6419,
+      "null_percent": 99.72,
+      "distinct_count": 3,
+      "top_values": [
+        {
+          "value": "government",
+          "count": 8
+        },
+        {
+          "value": "university",
+          "count": 7
+        },
+        {
+          "value": "public",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "capacity_persons",
+      "type": "VARCHAR",
+      "null_count": 6437,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "addr_full",
+      "type": "VARCHAR",
+      "null_count": 6437,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "addr_city",
+      "type": "VARCHAR",
+      "null_count": 6371,
+      "null_percent": 98.97,
+      "distinct_count": 16,
+      "top_values": [
+        {
+          "value": "\u0627\u0644\u062e\u0631\u0637\u0648\u0645",
+          "count": 37
+        },
+        {
+          "value": "\u0643\u0627\u0631\u0648\u0631\u0627",
+          "count": 8
+        },
+        {
+          "value": "Elmielg",
+          "count": 3
+        },
+        {
+          "value": "\u0627\u0644\u062a\u0643\u064a\u0646\u0629",
+          "count": 3
+        },
+        {
+          "value": "\u0627\u0644\u062f\u0644\u0646\u062c",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "type": "VARCHAR",
+      "null_count": 6437,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm0_pcode",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "SDN",
+          "count": 6437
+        }
+      ]
+    },
+    {
+      "name": "adm0_name",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "Sudan",
+          "count": 6437
+        }
+      ]
+    },
+    {
+      "name": "adm1_pcode",
+      "type": "VARCHAR",
+      "null_count": 12,
+      "null_percent": 0.19,
+      "distinct_count": 18,
+      "top_values": [
+        {
+          "value": "SD01",
+          "count": 1306
+        },
+        {
+          "value": "SD15",
+          "count": 1136
+        },
+        {
+          "value": "SD16",
+          "count": 512
+        },
+        {
+          "value": "SD17",
+          "count": 435
+        },
+        {
+          "value": "SD11",
+          "count": 391
+        }
+      ]
+    },
+    {
+      "name": "adm1_name",
+      "type": "VARCHAR",
+      "null_count": 12,
+      "null_percent": 0.19,
+      "distinct_count": 18,
+      "top_values": [
+        {
+          "value": "Khartoum",
+          "count": 1306
+        },
+        {
+          "value": "Aj Jazirah",
+          "count": 1136
+        },
+        {
+          "value": "River Nile",
+          "count": 512
+        },
+        {
+          "value": "Northern",
+          "count": 435
+        },
+        {
+          "value": "Kassala",
+          "count": 391
+        }
+      ]
+    },
+    {
+      "name": "adm2_pcode",
+      "type": "VARCHAR",
+      "null_count": 12,
+      "null_percent": 0.19,
+      "distinct_count": 156,
+      "top_values": [
+        {
+          "value": "SD01004",
+          "count": 313
+        },
+        {
+          "value": "SD15033",
+          "count": 285
+        },
+        {
+          "value": "SD01007",
+          "count": 244
+        },
+        {
+          "value": "SD01003",
+          "count": 214
+        },
+        {
+          "value": "SD01006",
+          "count": 197
+        }
+      ]
+    },
+    {
+      "name": "adm2_name",
+      "type": "VARCHAR",
+      "null_count": 12,
+      "null_percent": 0.19,
+      "distinct_count": 155,
+      "top_values": [
+        {
+          "value": "Sharg An Neel",
+          "count": 313
+        },
+        {
+          "value": "Sharg Al Jazirah",
+          "count": 285
+        },
+        {
+          "value": "Khartoum",
+          "count": 244
+        },
+        {
+          "value": "Bahri",
+          "count": 214
+        },
+        {
+          "value": "Um Durman",
+          "count": 197
+        }
+      ]
+    },
+    {
+      "name": "adm3_pcode",
+      "type": "VARCHAR",
+      "null_count": 6437,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm3_name",
+      "type": "VARCHAR",
+      "null_count": 6437,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_pcode",
+      "type": "VARCHAR",
+      "null_count": 6437,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_name",
+      "type": "VARCHAR",
+      "null_count": 6437,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "name_latin",
+      "type": "VARCHAR",
+      "null_count": 5588,
+      "null_percent": 86.81,
+      "distinct_count": 814,
+      "top_values": [
+        {
+          "value": "mdrs@ `mr bn lkhTb",
+          "count": 3
+        },
+        {
+          "value": "University of Khartoum",
+          "count": 3
+        },
+        {
+          "value": "Students Class",
+          "count": 3
+        },
+        {
+          "value": "Students' class",
+          "count": 3
+        },
+        {
+          "value": "mdrs kbyd@ l`lmy@",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "summary": "6,437 features. geometry types: 5,944 POLYGON, 493 POINT. 14 of 22 columns are >=50% null (name, name_en, name_ar, building, operator_type, capacity_persons, addr_full, addr_city, source, adm3_pcode, adm3_name, adm4_pcode, adm4_name, name_latin).",
+  "temporal": null
+}

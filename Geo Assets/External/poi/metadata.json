@@ -1,0 +1,506 @@
+{
+  "feature_count": 24808,
+  "geometry_types": {
+    "POINT": 16833,
+    "POLYGON": 7311,
+    "LINESTRING": 662,
+    "MULTIPOLYGON": 2
+  },
+  "bbox": [
+    21.8606531,
+    9.3149193,
+    38.394309,
+    22.016667
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 24808,
+      "top_values": []
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR",
+      "null_count": 11701,
+      "null_percent": 47.17,
+      "distinct_count": 11770,
+      "top_values": []
+    },
+    {
+      "name": "name_en",
+      "type": "VARCHAR",
+      "null_count": 21422,
+      "null_percent": 86.35,
+      "distinct_count": 3234,
+      "top_values": []
+    },
+    {
+      "name": "name_ar",
+      "type": "VARCHAR",
+      "null_count": 21365,
+      "null_percent": 86.12,
+      "distinct_count": 3254,
+      "top_values": []
+    },
+    {
+      "name": "amenity",
+      "type": "VARCHAR",
+      "null_count": 10522,
+      "null_percent": 42.41,
+      "distinct_count": 97,
+      "top_values": [
+        {
+          "value": "place_of_worship",
+          "count": 4278
+        },
+        {
+          "value": "school",
+          "count": 3847
+        },
+        {
+          "value": "restaurant",
+          "count": 991
+        },
+        {
+          "value": "pharmacy",
+          "count": 849
+        },
+        {
+          "value": "marketplace",
+          "count": 538
+        }
+      ]
+    },
+    {
+      "name": "man_made",
+      "type": "VARCHAR",
+      "null_count": 18730,
+      "null_percent": 75.5,
+      "distinct_count": 47,
+      "top_values": [
+        {
+          "value": "water_well",
+          "count": 2865
+        },
+        {
+          "value": "tower",
+          "count": 952
+        },
+        {
+          "value": "storage_tank",
+          "count": 538
+        },
+        {
+          "value": "embankment",
+          "count": 394
+        },
+        {
+          "value": "silo",
+          "count": 188
+        }
+      ]
+    },
+    {
+      "name": "shop",
+      "type": "VARCHAR",
+      "null_count": 21708,
+      "null_percent": 87.5,
+      "distinct_count": 106,
+      "top_values": [
+        {
+          "value": "supermarket",
+          "count": 1117
+        },
+        {
+          "value": "bakery",
+          "count": 411
+        },
+        {
+          "value": "convenience",
+          "count": 202
+        },
+        {
+          "value": "yes",
+          "count": 176
+        },
+        {
+          "value": "car_repair",
+          "count": 113
+        }
+      ]
+    },
+    {
+      "name": "tourism",
+      "type": "VARCHAR",
+      "null_count": 23268,
+      "null_percent": 93.79,
+      "distinct_count": 19,
+      "top_values": [
+        {
+          "value": "attraction",
+          "count": 612
+        },
+        {
+          "value": "hotel",
+          "count": 217
+        },
+        {
+          "value": "apartment",
+          "count": 193
+        },
+        {
+          "value": "viewpoint",
+          "count": 119
+        },
+        {
+          "value": "guest_house",
+          "count": 76
+        }
+      ]
+    },
+    {
+      "name": "opening_hours",
+      "type": "VARCHAR",
+      "null_count": 24488,
+      "null_percent": 98.71,
+      "distinct_count": 138,
+      "top_values": [
+        {
+          "value": "24/7",
+          "count": 132
+        },
+        {
+          "value": "Sa-Th 09:00-18:00",
+          "count": 6
+        },
+        {
+          "value": "Mo-Su 09:00-23:00",
+          "count": 5
+        },
+        {
+          "value": "Mo-Su 07:00-18:00",
+          "count": 5
+        },
+        {
+          "value": "Mo-Su 07:00-23:00",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "beds",
+      "type": "VARCHAR",
+      "null_count": 24808,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "rooms",
+      "type": "VARCHAR",
+      "null_count": 24806,
+      "null_percent": 99.99,
+      "distinct_count": 2,
+      "top_values": [
+        {
+          "value": "200",
+          "count": 1
+        },
+        {
+          "value": "8",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "addr_full",
+      "type": "VARCHAR",
+      "null_count": 24808,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "addr_housenumber",
+      "type": "VARCHAR",
+      "null_count": 24735,
+      "null_percent": 99.71,
+      "distinct_count": 65,
+      "top_values": [
+        {
+          "value": "1",
+          "count": 5
+        },
+        {
+          "value": "7",
+          "count": 2
+        },
+        {
+          "value": "5",
+          "count": 2
+        },
+        {
+          "value": "3",
+          "count": 2
+        },
+        {
+          "value": "735",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "addr_street",
+      "type": "VARCHAR",
+      "null_count": 23547,
+      "null_percent": 94.92,
+      "distinct_count": 448,
+      "top_values": [
+        {
+          "value": "\u0634\u0627\u0631\u0639 \u0627\u0644\u0646\u0635",
+          "count": 57
+        },
+        {
+          "value": "\u0634\u0627\u0631\u0639 \u0627\u0644\u0648\u0627\u0644\u064a",
+          "count": 38
+        },
+        {
+          "value": "\u0634\u0627\u0631\u0639 \u0627\u0644\u062d\u0627\u062c \u064a\u0648\u0633\u0641",
+          "count": 36
+        },
+        {
+          "value": "\u0634\u0627\u0631\u0639 \u0627\u0644\u0635\u062d\u0627\u0641\u0629 \u0632\u0644\u0637",
+          "count": 27
+        },
+        {
+          "value": "\u0634\u0627\u0631\u0639 \u0627\u0644\u0633\u062a\u064a\u0646",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "name": "addr_city",
+      "type": "VARCHAR",
+      "null_count": 24419,
+      "null_percent": 98.43,
+      "distinct_count": 61,
+      "top_values": [
+        {
+          "value": "\u0627\u0644\u062e\u0631\u0637\u0648\u0645",
+          "count": 198
+        },
+        {
+          "value": "\u0648\u0627\u062f\u064a \u062d\u0644\u0641\u0627",
+          "count": 21
+        },
+        {
+          "value": "\u0634\u0646\u062f\u064a",
+          "count": 12
+        },
+        {
+          "value": "Elmielg",
+          "count": 11
+        },
+        {
+          "value": "\u0642\u0631\u064a\u0629 \u0646\u062c\u0631\u0648",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "type": "VARCHAR",
+      "null_count": 24808,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm0_pcode",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "SDN",
+          "count": 24808
+        }
+      ]
+    },
+    {
+      "name": "adm0_name",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "Sudan",
+          "count": 24808
+        }
+      ]
+    },
+    {
+      "name": "adm1_pcode",
+      "type": "VARCHAR",
+      "null_count": 310,
+      "null_percent": 1.25,
+      "distinct_count": 18,
+      "top_values": [
+        {
+          "value": "SD01",
+          "count": 11254
+        },
+        {
+          "value": "SD17",
+          "count": 1819
+        },
+        {
+          "value": "SD15",
+          "count": 1645
+        },
+        {
+          "value": "SD16",
+          "count": 1369
+        },
+        {
+          "value": "SD09",
+          "count": 1349
+        }
+      ]
+    },
+    {
+      "name": "adm1_name",
+      "type": "VARCHAR",
+      "null_count": 310,
+      "null_percent": 1.25,
+      "distinct_count": 18,
+      "top_values": [
+        {
+          "value": "Khartoum",
+          "count": 11254
+        },
+        {
+          "value": "Northern",
+          "count": 1819
+        },
+        {
+          "value": "Aj Jazirah",
+          "count": 1645
+        },
+        {
+          "value": "River Nile",
+          "count": 1369
+        },
+        {
+          "value": "White Nile",
+          "count": 1349
+        }
+      ]
+    },
+    {
+      "name": "adm2_pcode",
+      "type": "VARCHAR",
+      "null_count": 310,
+      "null_percent": 1.25,
+      "distinct_count": 188,
+      "top_values": [
+        {
+          "value": "SD01007",
+          "count": 3847
+        },
+        {
+          "value": "SD01003",
+          "count": 2113
+        },
+        {
+          "value": "SD01006",
+          "count": 1357
+        },
+        {
+          "value": "SD01001",
+          "count": 1295
+        },
+        {
+          "value": "SD01004",
+          "count": 1208
+        }
+      ]
+    },
+    {
+      "name": "adm2_name",
+      "type": "VARCHAR",
+      "null_count": 310,
+      "null_percent": 1.25,
+      "distinct_count": 187,
+      "top_values": [
+        {
+          "value": "Khartoum",
+          "count": 3847
+        },
+        {
+          "value": "Bahri",
+          "count": 2113
+        },
+        {
+          "value": "Um Durman",
+          "count": 1357
+        },
+        {
+          "value": "Jebel Awlia",
+          "count": 1295
+        },
+        {
+          "value": "Sharg An Neel",
+          "count": 1208
+        }
+      ]
+    },
+    {
+      "name": "adm3_pcode",
+      "type": "VARCHAR",
+      "null_count": 24808,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm3_name",
+      "type": "VARCHAR",
+      "null_count": 24808,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_pcode",
+      "type": "VARCHAR",
+      "null_count": 24808,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_name",
+      "type": "VARCHAR",
+      "null_count": 24808,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "name_latin",
+      "type": "VARCHAR",
+      "null_count": 11681,
+      "null_percent": 47.09,
+      "distinct_count": 11837,
+      "top_values": []
+    }
+  ],
+  "summary": "24,808 features. geometry types: 16,833 POINT, 7,311 POLYGON, 662 LINESTRING, 2 MULTIPOLYGON. 17 of 27 columns are >=50% null (name_en, name_ar, man_made, shop, tourism, opening_hours, beds, rooms, addr_full, addr_housenumber, addr_street, addr_city, source, adm3_pcode, adm3_name, adm4_pcode, adm4_name).",
+  "temporal": null
+}
