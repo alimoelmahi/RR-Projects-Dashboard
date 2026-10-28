@@ -1,0 +1,20 @@
+{
+  "source": "UNFPA, Sudan - Subnational Population Statistics (HDX), ADM2 total population (T_TL), reference year 2024",
+  "sourceUrl": "https://data.humdata.org/dataset/cod-ps-sdn",
+  "populations": {
+    "SD15030": 502192,
+    "SD15031": 838186,
+    "SD15032": 352203,
+    "SD15033": 633469,
+    "SD15034": 941155,
+    "SD15035": 656239,
+    "SD15036": 861601,
+    "SD15037": 552503,
+    "SD08107": 160131,
+    "SD08110": 67259,
+    "SD12077": 126648,
+    "SD12082": 132677,
+    "SD12083": 266159,
+    "SD12084": 305024
+  }
+}
